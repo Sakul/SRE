@@ -8,31 +8,6 @@ public class SRE : DevOps
 ```
 > `Site Reliability Engineering` is an engineering discipline devoted to helping an organization sustainably achieve the appropriate level of reliability in their systems, services, and products.
 
-# The Dickerson hierarchy
-> ## TLDR
-> * **Monitoring** - source of information that allows you to have concrete conversations
-> * **Incident response** - triaging & mitigating the problem
-> * **Post-Incident Review** - learning from failure
-> (investigating, reviewing, discussing of each significant incident)
-> * **Testing/Release** - deployment (catch problems before they cause incidents?)
-> * **Capacity/Scaling** - attention to capacity planning and scaling as ways of addressing that threat
-> * **Dev & UX**
-
-![img](https://docs.microsoft.com/en-us/learn/advocates/improve-reliability-introduction/media/dickerson-hierarchy.png)
-
-## Monitoring
-`🤔 What exactly is running in production?` ... Collect information about
-* **Normal & Past performance** - it may give us at least some sense of potential failure modes
-* **Context** - clear idea of who the stakeholders are
-
-### Azure Tools for operational awareness
-* **Application Insights** - virtualize communication, connections, number of calls made, average latency for those components
-![img](https://docs.microsoft.com/en-us/learn/advocates/improve-reliability-monitoring/media/application-map.png)
-* **Azure Resource Graph** - lets you run arbitrary queries that return real-time answers via `Kusto Query Language (KQL)`
-![img](https://docs.microsoft.com/en-us/learn/advocates/improve-reliability-monitoring/media/resource-graph-explorer-results.png)
-* **Dashboards** - summarize the system at anything you want like graphs, charts, counters, enabled to share pre-setup exactly as we need via `JSON` file
-![img](https://docs.microsoft.com/en-us/learn/advocates/improve-reliability-monitoring/media/azure-inventory-dashboard.png)
-
 # Reliability
 * **IMPORTANCE** Reliability has to be measured from the customer’s perspective, not the component perspective
 
@@ -61,6 +36,25 @@ public class SRE : DevOps
 
 ### Reframing #2: Appropriate levels of reliability
 100% reliable is almost never the right goal, we don't really need things to be 100% reliable. And in fact, 100% reliable isn't often possible.
+
+# The Dickerson hierarchy
+> ## TLDR
+> * **Monitoring** - source of information that allows you to have concrete conversations
+> * **Incident response** - triaging & mitigating the problem
+> * **Post-Incident Review** - learning from failure
+> (investigating, reviewing, discussing of each significant incident)
+> * **Testing/Release** - deployment (catch problems before they cause incidents?)
+> * **Capacity/Scaling** - attention to capacity planning and scaling as ways of addressing that threat
+> * **Dev & UX**
+
+![img](https://docs.microsoft.com/en-us/learn/advocates/improve-reliability-introduction/media/dickerson-hierarchy.png)
+
+## Monitoring
+`🤔 What exactly is running in production?` ... Collect information about
+* **Normal & Past performance** - it may give us at least some sense of potential failure modes
+* **Context** - clear idea of who the stakeholders are
+
+### [Azure Tools for operational awareness](/AzureMonitoringTools.md)
 
 ## Inprogress
 * Incident response
