@@ -70,4 +70,5 @@ public class SRE : DevOps
 * TBD
 
 ## References
+* [Google SRE books](https://sre.google/books)
 * [Improve your reliability with modern operations practices](https://docs.microsoft.com/en-us/learn/paths/improve-reliability-modern-operations)
