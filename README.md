@@ -59,8 +59,6 @@ public class SRE : DevOps
 > * If no customers even noticed the back ends going down and the other 86 server instances are shouldering the load with no problems, then there’s no crisis here
 > * If the outage cause losing serious amounts of money for every minute those servers are down, then there’s a crisis
 
-This idea holds true even when we do talk about more traditional component-based monitoring. If you find out that the database server is running at 50% CPU load, is that good or bad? If it goes up to 90% is that better or worse? If the service is running fine and the users are happy, 90% might be great because it means we've considerably improved our resource utilization. But if they were complaining with how slow your application was running at 50% CPU load, 90% is not likely to be an improvement.
-
 ### Reframing #2: Appropriate levels of reliability
 100% reliable is almost never the right goal, we don't really need things to be 100% reliable. And in fact, 100% reliable isn't often possible.
 
