@@ -50,7 +50,7 @@ public class SRE : DevOps
 ![img](https://docs.microsoft.com/en-us/learn/advocates/improve-reliability-introduction/media/dickerson-hierarchy.png)
 
 ## Monitoring
-`🤔 What exactly is running in production?` ... Collect information about
+🤔 What exactly is running in production? ... to answer the question we need to collect information about
 * **Normal & Past performance** - it may give us at least some sense of potential failure modes
 * **Context** - clear idea of who the stakeholders are
 
