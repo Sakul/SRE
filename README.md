@@ -55,7 +55,8 @@ public class SRE : DevOps
 * **Context** - clear idea of who the stakeholders are
 
 ### [Azure Tools for operational awareness](/AzureMonitoringTools.md)
-### [Feedback Loop by SLI & SLO](/FeedbackLoopSLISLO.md)
+### [Feedback Loop by SLI & SLO](/FeedbackLoopSLISLO.md
+### [Actionable Alerts](/ActionableAlerts.md)
 
 ## Inprogress
 * Incident response
