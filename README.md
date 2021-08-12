@@ -21,6 +21,8 @@ Reliability has to be measured from the customer’s perspective, not the compon
 * **Freshness** - how up to date the information is in situations where timeliness matters to the customer
 * **Durability** - expected of your user to your service's durability
 
+---
+
 ## 🔥 Changing the frame
 ### 🤯 Reframing #1: Reliability from the customer’s perspective
 **🤔 Question**  
@@ -36,6 +38,8 @@ It depends on how your customers are experiencing this outage
 
 ### 🤯 Reframing #2: Appropriate levels of reliability
 100% reliable is almost never the right goal, we don't really need things to be 100% reliable. And in fact, 100% reliable isn't often possible.
+
+---
 
 # 💖 The Dickerson hierarchy
 > ## TLDR
@@ -54,10 +58,11 @@ It depends on how your customers are experiencing this outage
 * **Normal & Past performance** - it may give us at least some sense of potential failure modes
 * **Context** - clear idea of who the stakeholders are
 
-### [Azure Tools for operational awareness](/AzureMonitoringTools.md)
-### [Feedback Loop by SLI & SLO](/FeedbackLoopSLISLO.md)
-### [Actionable Alerts](/ActionableAlerts.md)
-### [Azure Monitor for Actionable Alerts](/AzureMonitor.md)
+### Learning paths for monitoring
+* [Azure Tools for operational awareness](/AzureMonitoringTools.md)
+* [Feedback Loop by SLI & SLO](/FeedbackLoopSLISLO.md)
+* [Actionable Alerts](/ActionableAlerts.md)
+* [Azure Monitor for Actionable Alerts](/AzureMonitor.md)
 
 ## Inprogress
 * Incident response
