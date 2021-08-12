@@ -49,7 +49,7 @@ It depends on how your customers are experiencing this outage
 > (investigating, reviewing, discussing of each significant incident)
 > * **Testing/Release** - deployment (catch problems before they cause incidents?)
 > * **Capacity/Scaling** - attention to capacity planning and scaling as ways of addressing that threat
-> * **Dev & UX**
+> * **Dev & UX** - out of scope of this repo 😥
 
 ![img](https://docs.microsoft.com/en-us/learn/advocates/improve-reliability-introduction/media/dickerson-hierarchy.png)
 
