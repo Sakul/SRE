@@ -55,17 +55,30 @@ It depends on how your customers are experiencing this outage
 
 ## 1️⃣ Monitoring
 🤔 What exactly is running in production? ... to answer the question we need to collect information about
-* **Normal & Past performance** - it may give us at least some sense of potential failure modes
-* **Context** - clear idea of who the stakeholders are
 
-### Learning paths for monitoring
+### Topics
+* Operational awareness
+  * **Normal & Past performance** - it may give us at least some sense of potential failure modes
+  * **Context** - clear idea of who the stakeholders are
 * [Azure Tools for operational awareness](/AzureMonitoringTools.md)
 * [Feedback Loop by SLI & SLO](/FeedbackLoopSLISLO.md)
 * [Actionable Alerts](/ActionableAlerts.md)
 * [Azure Monitor for Actionable Alerts](/AzureMonitor.md)
 
+## 2️⃣ Incident response
+Mitigating the impact and/or restoring the service including communication flows both between the responders and to those interested in the incident’s progress
+
+### Topics
+* [Incident Response](/IncidentResponse/README.md)
+  * Plan to limit the impact & Respond with urgency
+  * Measuring incident response performance by Time To Recover/Remediate/Restore aka `TTR`
+* [Phases of an incident](/IncidentResponse/README.md#phases-of-an-incident) - Detection > Response > Remediation > Analysis > Readiness > *detection*
+* [Foundations](/IncidentResponse/README.md#-foundations) - Roaster, Roles, Rotations
+* [Incident tracking](/IncidentResponse/README.md#-incident-tracking) - Sharing information, Unique channel, Automations
+* [Communication](/IncidentResponse/README.md#-communication--collaboration) - ChatOps
+* [Remediation](/IncidentResponse/README.md#-remediation)
+
 ## Inprogress
-* Incident response
 * Post-Incident Review
 * Testing/Release
 * Capacity/Scaling
