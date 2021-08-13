@@ -109,7 +109,7 @@ Keys to prioritizing for clear communication
 	* Amount of time to get it back
 
 ## Azure tools
-* Azure Monitor Workbooks & * Application Insights Troubleshooting Guides
+* Azure Monitor Workbooks & Application Insights Troubleshooting Guides
 	* Bulleted list of items to do or other helpful information
 	* Links to other systems (dashboards, documentation, etc)
 	* Kusto Query Language (KQL) queries
