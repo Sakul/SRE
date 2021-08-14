@@ -78,8 +78,15 @@ Mitigating the impact and/or restoring the service including communication flows
 * [Communication](/IncidentResponse/README.md#-communication--collaboration) - ChatOps
 * [Remediation](/IncidentResponse/README.md#-remediation)
 
+## 3️⃣ Post-Incident Review
+Learning from failure for `Improvement` and `Prevention`
+
+### Topics
+* [Post-Incident Review](/PostIncident#3%EF%B8%8F%E2%83%A3-post-incident)
+* [Common traps to avoid](/PostIncident#-common-traps-to-avoid)
+* [Helpful practices](/PostIncident#-helpful-practices)
+
 ## Inprogress
-* Post-Incident Review
 * Testing/Release
 * Capacity/Scaling
 * TBD
