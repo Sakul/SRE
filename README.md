@@ -83,8 +83,21 @@ Learning from failure for `Improvement` and `Prevention`
 
 ### Topics
 * [Post-Incident Review](/PostIncident#3%EF%B8%8F%E2%83%A3-post-incident)
+ * Complex systems are NEVER 100% reliable
+ * Review meeting after an incident in 24~36 hours but not necessary for all incidents
+ * Blameless
+ * 4Ds - Discussion, Discourse, Dissent, Discovery
+* [Review Process](/PostIncident#-review-process) - Gather the data
 * [Common traps to avoid](/PostIncident#-common-traps-to-avoid)
+ * Attribution to “human error”
+ * Counterfactual reasoning
+ * Normative language
+ * Mechanistic reasoning
 * [Helpful practices](/PostIncident#-helpful-practices)
+ * Run a facilitated post-incident review
+ * Ask better questions
+ * Ask how things went right
+ * Keep review and planning meetings separate
 
 ## Inprogress
 * Testing/Release
